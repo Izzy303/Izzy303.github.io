@@ -12,6 +12,14 @@ ul {
   display: flex;
 }
 
+.nav {
+    background-color: #ccffff;
+}
+
+.popcorn a:hover:not(.active) {
+  background-color: #80ffff;
+}
+
 li {
   flex: 1;
 }
@@ -31,4 +39,26 @@ li a:hover:not(.active) {
 li a.active {
   color: white;
   background-color: #e180ff;
+}
+
+.lavender {
+  background-color: #ccccff;
+}
+
+input {
+  display: block;
+  margin: 20px 10px;
+}
+
+label {
+  margin: 0px 10px
+}
+
+textarea {
+  display: block;
+  margin: 20px 10px;
+}
+
+button{
+  margin: 20px 0px
 }
